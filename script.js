@@ -1,4 +1,4 @@
-function bendingMachine(coin) {
+function vendingMachine(coin) {
     if(coin >= 100) {
         console.log('コーラ')
     } else if (coin < 0) {
@@ -8,6 +8,6 @@ function bendingMachine(coin) {
     }
 }
 
-bendingMachine(120);
-bendingMachine(90);
-bendingMachine(-10)
+vendingMachine(120);
+vendingMachine(90);
+vendingMachine(-10);
