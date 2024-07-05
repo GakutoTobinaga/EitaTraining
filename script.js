@@ -11,3 +11,8 @@ function bendingMachine(coin) {
 bendingMachine(120);
 bendingMachine(90);
 bendingMachine(-10)
+
+function calculateBMI(height,weight) {
+    console.log(weight / (height ** 2) * 10000);
+}
+calculateBMI(174,68);
