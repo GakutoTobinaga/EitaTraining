@@ -11,3 +11,9 @@ function vendingMachine(coin) {
 vendingMachine(120);
 vendingMachine(90);
 vendingMachine(-10);
+
+function calculateBMI(height, weight) {
+    console.log(weight / (height ** 2) * 10000);
+}
+
+calculateBMI(174,68);
