@@ -15,11 +15,11 @@
 function calculateBMI(height, weight) {
     if(height >= 2 || weight <= 0) {
         return false
-    } else {
+    }  
         const bmi = (weight / (height ** 2))
         const roundedBmi = Math.round(bmi * 100) / 100
         return roundedBmi
-    }
+    
 }
 
 function judgeBmi(a) {
