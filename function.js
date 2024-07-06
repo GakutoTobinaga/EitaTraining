@@ -2,7 +2,7 @@
  * 
  * @param {string} beverage 飲み物の名前
  * @param {number} age 年齢
- * @returns {null} {booleen} 
+ * @returns {null|boolean} 
  */
 function processDrinkOrder(beverage,age) {
     if(typeof beverage !== 'string' || typeof age !== 'number') { //beverageが文字型以外またはageが数値型以外の場合はnullを返す

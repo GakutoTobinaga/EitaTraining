@@ -18,7 +18,7 @@
  * 
  * @param {number} height heightは身長です。 メートル単位で入ります。
  * @param {number} weight
- * @returns {number} or false
+ * @returns {number|false}
  */
 function calculateBMI(height, weight) {
     if(height >= 2 || weight <= 0) {
