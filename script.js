@@ -13,7 +13,12 @@ vendingMachine(90);
 vendingMachine(-10);
 
 function calculateBMI(height, weight) {
-    console.log(weight / (height ** 2) * 10000);
+    if(height >= 2 || weight <= 0) {
+        console.log('正しい値を入力してください')
+    } else {
+        const bmi = (weight / (height ** 2))
+        console.log(Math.round(bmi * 100) / 100);
+    }
 }
 
-calculateBMI(174,68);
+calculateBMI(1.74,68);
