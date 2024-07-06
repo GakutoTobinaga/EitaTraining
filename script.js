@@ -12,6 +12,14 @@
 // vendingMachine(90);
 // vendingMachine(-10);
 
+// heightは身長。メートル単位で入る
+
+/**
+ * 
+ * @param {number} height heightは身長です。 メートル単位で入ります。
+ * @param {number} weight
+ * @returns {number} or false
+ */
 function calculateBMI(height, weight) {
     if(height >= 2 || weight <= 0) {
         return false
