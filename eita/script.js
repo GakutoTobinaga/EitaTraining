@@ -33,7 +33,7 @@ function judgeBmi(a) {
 }
 
 function BMICalculator() {
-    const height = document.getElementById("heightInputField").value;　
+    const height = document.getElementById("heightInputField").value;
     const weight = document.getElementById("weightInputField").value;
     console.log(height)
     const BMI = calculateBMI(height, weight);

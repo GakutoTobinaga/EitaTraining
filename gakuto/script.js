@@ -5,7 +5,7 @@ function displayInput() {
 
 function displayInputWithLastName() {
     var input = document.getElementById("inputField").value;
-    document.getElementById("displayArea").textContent = input + "Tobinaga";
+    document.getElementById("displayArea").textContent = input
 }
 
 function calculateBMI(height, weight) {
