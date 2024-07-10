@@ -1,3 +1,4 @@
+import _ from "lodash"
 /**
  * 
  * @param {string} beverage 飲み物の名前
@@ -49,7 +50,3 @@ console.log(beverages.coke);
 console.log(beverages.beer);
 console.log(beverages.water);
 console.log(beverages.tea);
-Object.freeze(beverages);
-console.log(beverages)
-delete beverages.beer
-console.log(beverages)
