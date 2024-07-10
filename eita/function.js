@@ -44,3 +44,9 @@ const a = processDrinkOrder('コーラ',20);
 const judge = trueorfalse(a);
 console.log(judge);
 
+const beverages = {'coke':150,'beer':250,'water':100,'tea':120}
+console.log(beverages.coke);
+console.log(beverages.beer);
+console.log(beverages.water);
+console.log(beverages.tea);
+
