@@ -50,17 +50,3 @@ console.log(beverages.coke);
 console.log(beverages.beer);
 console.log(beverages.water);
 console.log(beverages.tea);
-
-const numbers = [1, 2, 3, 4, 5]
-const shuffledNumbers = _.shuffle(numbers)
-console.log(shuffledNumbers)
-
-// const length = 3
-
-// length == 4 ? "OK" : "NG"
-
-// if (length === 4){
-//     return "OK"
-// } else {
-//     return "NG"
-// }
